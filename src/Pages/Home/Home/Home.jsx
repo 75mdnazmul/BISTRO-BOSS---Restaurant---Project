@@ -1,11 +1,12 @@
 import useTitleName from "../../../Hooks/useTitleName";
+import Banner from "../Banner/Banner";
 
 
 const Home = () => {
     useTitleName('Home Page')
     return (
         <div>
-            <h3>HOme</h3>
+            <Banner></Banner>
         </div>
     );
 };
