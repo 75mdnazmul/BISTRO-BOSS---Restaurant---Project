@@ -1,5 +1,6 @@
 import useTitleName from "../../../Hooks/useTitleName";
 import Banner from "../Banner/Banner";
+import ChefRecommends from "../ChefRecommends/ChefRecommends";
 import OrderOnlineCategory from "../OrderOnlineCategory/OrderOnlineCategory";
 import OurMenu from "../OurMenu/OurMenu";
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <OrderOnlineCategory></OrderOnlineCategory>
             <OurMenu></OurMenu>
+            <ChefRecommends></ChefRecommends>
         </div>
     );
 };
