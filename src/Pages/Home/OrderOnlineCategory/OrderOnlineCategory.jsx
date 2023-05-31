@@ -26,7 +26,7 @@ const OrderOnlineCategory = () => {
                     clickable: true,
                 }}
                 modules={[Pagination]}
-                className="mySwiper mb-24"
+                className="mySwiper"
             >
 
                 <SwiperSlide>
