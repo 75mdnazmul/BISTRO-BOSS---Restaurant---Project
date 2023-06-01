@@ -1,3 +1,4 @@
+import "./OrderOnlineCategory.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
@@ -16,8 +17,8 @@ const OrderOnlineCategory = () => {
     return (
         <>
             <SectionTitle
-            heading={"ORDER ONLINE"}
-            subHeading={"---From 11:00am to 10:00pm---"}
+                heading={"ORDER ONLINE"}
+                subHeading={"---From 11:00am to 10:00pm---"}
             ></SectionTitle>
             <Swiper
                 slidesPerView={3}
@@ -70,6 +71,12 @@ const OrderOnlineCategory = () => {
                     <h3 className="text-3xl font-bold uppercase -mt-16 ms-20 text-slate-900">Salads</h3>
                 </SwiperSlide>
             </Swiper>
+            <div className="BistroBossDescription my-24 py-10">
+                <div className="text-black text-center bg-white m-20 p-24  rounded-3xl">
+                    <h2 className="uppercase text-4xl font-bold mb-5">Bistro Boss</h2>
+                    <p className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, libero accusamus laborum deserunt ratione dolor officiis praesentium! Deserunt magni aperiam dolor eius dolore at, nihil iusto ducimus incidunt quibusdam nemo.</p>
+                </div>
+            </div>
         </>
     );
 };
